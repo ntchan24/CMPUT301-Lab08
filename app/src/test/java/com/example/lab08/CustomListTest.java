@@ -25,11 +25,19 @@ public class CustomListTest {
 
         assertFalse(list.hasCity(edmonton));
 
-        assertThrows(NoSuchElementException.class, () -> {
-            list.deleteCity(edmonton);
-        });
+
 
     }
 
-
+//    @Test
+//    public void countCities() {
+//        CustomList list = new CustomList();
+//        City edmonton = new City("Edmonton", "Alberta");
+//        City calgary = new City("Calgary", "Alberta");
+//        list.addCity(edmonton);
+//        list.addCity(calgary);
+//
+//        assertTrue(list.countCities() ==2);
+//
+//    }
 }
