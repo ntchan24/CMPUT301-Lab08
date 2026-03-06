@@ -29,15 +29,15 @@ public class CustomListTest {
 
     }
 
-//    @Test
-//    public void countCities() {
-//        CustomList list = new CustomList();
-//        City edmonton = new City("Edmonton", "Alberta");
-//        City calgary = new City("Calgary", "Alberta");
-//        list.addCity(edmonton);
-//        list.addCity(calgary);
-//
-//        assertTrue(list.countCities() ==2);
-//
-//    }
+    @Test
+    public void countCities() {
+        CustomList list = new CustomList();
+        City edmonton = new City("Edmonton", "Alberta");
+        City calgary = new City("Calgary", "Alberta");
+        list.addCity(edmonton);
+        list.addCity(calgary);
+
+        assertTrue(list.countCities() ==2);
+
+    }
 }
